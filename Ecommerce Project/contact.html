@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a ecommerce project 
+    for making Advanced Express">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Ecommerce Project</title>
+</head>
+<body>
+    <nav>
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a class="nav-link" href="index.html">Home</a>
+                
+            </li>
+            
+            <li class="nav-list">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+
+
+            <li class="nav-list">
+                <a class="nav-link" href="login.html">login</a>
+            </li>
+
+            <li class="nav-list">
+                <a class="nav-link" href="index.html">logout</a>
+            </li>
+
+            <li class="nav-list">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            
+            <li class="nav-list">
+                <a class="nav-link" href="profile.html">
+                    <img class="profile-icon" 
+                    src="images/profile.png" alt="profile icon">
+                </a>
+            </li>
+
+
+        </ul> 
+<ul class="nav-lower flex-space-around">
+    <li class="nav-list">
+        <a class="nav-brand nav-link" href="/index.html">
+            Advanced Express
+        </a>
+    </li>
+    <li class="nav-list">
+        <a class="nav-link" href="/cart.html">
+            <span>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            Cart 2 products-$1124
+        </a>
+    </li>
+</ul>
+    </nav>
+    
+    <!--nav end-->
+
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title text-center">Contact us</h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+
+                    <div class="form-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required autocomplete="name">
+                    </div>
+
+                    <div class="form-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required autocomplete="email">
+                    </div>
+
+                    <div class="form-control flex-center">
+                        <label for="massage">Massage</label>
+                        <textarea name="massage" id="massage"></textarea>
+                    </div>
+                    <div class="form-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                    </div>
+
+                </form>
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address :</h4>
+                        <p>3-12-11 Matsushima,<br> Edogawa city, Tokyo</p>
+                        <br>
+                        <span>Call</span>
+                        <a href="tel:07015776139">07015776139</a>
+                    </address>
+                </div>
+            </div>
+    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662873.2451231668!2d139.7698121!3d35.50924045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo!5e0!3m2!1sen!2sjp!4v1714205800868!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        </section>
+
+        </main>
+
+    <!--footer start-->
+
+    <footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="email" id="subscribe" 
+        name="subscribe" class="footer-input"
+        placeholder="Your email address"/>
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy;Copyright 2024 Advanced Express.
+             Allright for reseved</p>
+    </div>
+    </footer>
+
+    <!--footer end-->
+    
+    <Script src="./cripts/index.js"></Script>
+
+</body>
+</html>

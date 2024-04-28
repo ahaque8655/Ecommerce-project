@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is a ecommerce project 
+    for making Advanced Express">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Ecommerce Project</title>
+</head>
+<body>
+    <!--start nav-->
+
+    
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav id="menu" class="hidden">
+
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a class="nav-link" href="index.html">Home</a>
+                
+            </li>
+            
+            <li class="nav-list">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+
+
+            <li class="nav-list">
+                <a class="nav-link" href="login.html">login</a>
+            </li>
+
+            <li class="nav-list">
+                <a class="nav-link" href="index.html">logout</a>
+            </li>
+
+            <li class="nav-list">
+                <a class="nav-link" href="contact.html">Contact</a>
+
+                <li class="nav-list">
+                    <a class="nav-link" href="product.html">Product</a>
+
+            </li>
+            
+            <li class="nav-list">
+                <a class="nav-link" href="profile.html">
+                    <img class="profile-icon" 
+                    src="images/profile.png" alt="profile icon">
+                </a>
+            </li>
+
+
+        </ul> 
+<ul class="nav-lower flex-space-around">
+    <li class="nav-list">
+        <a class="nav-brand nav-link" href="/index.html">
+            Advanced Express
+        </a>
+    </li>
+    <li class="nav-list">
+        <a class="nav-link" href="/cart.html">
+            <span><i class="fa-solid fa-cart-shopping"></i>
+            </span>
+            Cart 2 products-$1124
+        </a>
+    </li>
+</ul>
+    </nav>
+    
+    <!--nav end-->
+
+
+    <!--header start-->
+
+<header class="header">
+    <div class="banner flex-space-around">
+        <marquee class="banner-title" behavior="" description="">
+            50% Sales Goning on</marquee>
+
+            <div class="features flex-space-around">
+                <article class="feature flex-center">
+                    <i class="fa-solid fa-truck feature-icon"></i>
+                    <h3>Shipping within 7 days</h3>
+                </article>
+
+                <article class="feature flex-center">
+                    <i class="fa-regular fa-credit-card feature-icon"></i>
+                    <h3>Safe payment</h3>
+                </article>  
+
+                <article class="feature flex-center">
+                    <i class="fa-brands fa-rocketchat feature-icon"></i>
+                    <h3>Support 24/7</h3>
+                </article>
+            </div>
+
+    </div>
+</header>
+
+
+<!--main start-->
+
+<main class="flex-center">
+    <div class="sidebar">
+        <section class="categories-section">
+            <h3 class="section-title">Categories</h3>
+            <ul class="list">
+                <li class="list-item">
+                    <label for="phone">
+                        <input type="checkbox" name="phone"
+                        id="phone" value="phone">Phone
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="tablet">
+                        <input type="checkbox" name="tablet"
+                        id="tablet" value="tablet">Tablet
+                    </label>
+                </li>
+
+                <li class="list-item">
+                    <label for="computer">
+                        <input type="checkbox" name="computer"
+                        id="computer" value="computer">Computer
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="headphon">
+                            <input type="checkbox" name="phone"
+                               id="headphon" value="headphon">Headphone
+                            </label>
+                </li>
+
+
+                <li class="list-item">
+                    <label for="television">
+                        <input type="checkbox" name="television"
+                        id="television" value="television">Television
+                    </label>
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="price-section">
+            <h3 class="section-title">Price Ranges</h3>
+            <ul class="list">
+                
+                <li class="list-item">
+                    <label for="Price">
+                        <input type="checkbox" name="Price"
+                        id="Price" value="[0,20]">$0-$20
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="Price">
+                        <input type="checkbox" name="Price"
+                        id="Price" value="[21,50]">$21-$50
+                    </label>
+                </li>
+                <li class="list-item">
+                    <label for="Price">
+                        <input type="checkbox" name="Price"
+                        id="Price" value="[51,100]">$51-$100
+                    </label>
+                </li>
+
+                
+                <li class="list-item">
+                    <label for="Price">
+                        <input type="checkbox" name="Price"
+                        id="Price" value="[100,500]">$100-$500
+                    </label>
+                </li>
+
+
+<li class="list-item">
+                    <label for="Price">
+                        <input type="checkbox" name="Price"
+                        id="Price" value="[500+]">$500+
+                    </label>
+                </li>
+
+                <section class="shipping-section">
+                    <h3 class="section-title">Shipping</h3>
+                    <ul class="list">
+                        
+                        <li class="list-item">
+                            <label for="free">
+                                <input type="checkbox" name="Shipping"
+                                id="free" value="free">Free
+                            </label>
+                        </li>
+
+                                                            
+                                <li class="list-item">
+                                    <label for="paid">
+                                    <input type="checkbox" name="shipping"
+                                        id="paid" value="paid">Paid
+                                    </label>
+                                </li>
+
+    </div>
+
+
+    <div class="main-content">
+        <section class="actions flex-space-around">
+            <div class="actions-sort">
+                <label for="sort">Sort By :</label>
+                <select name="sort" id="sort">
+                    <option value="sold">Maximum sold first</option>
+                    <option value="rating">Most related first</option>
+                    <option value="price">Cheapest first</option>
+                    <option value="arrival">Newest first</option>
+                    <option value="discount">Biggest discount</option>
+                </select>
+            </div>
+        <div class="action-search">
+            <input type="text" placeholder="search products"/>
+            <button class="btn">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        </section>
+    
+<!--action end-->
+
+
+<!--production section start-->
+
+<section class="products">
+    <article class="product card">
+        <div class="badge">
+            <span>6 in stock</span>
+            <hr class="hr-design">
+            <span>3 sold</span>
+        </div>
+        <img class="product-img" src="images/product1.jpg" alt="product 1"/>
+        <div class="product-body">
+            <h3 class="product-name">Sony v4 Headphone</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot red"></span>
+                <span class="dot black"></span>
+            </p>
+                <p class="product-description">Sony is the biggest company
+                     in the world.
+                    <a href="product.html" class="learn-more">Learn-more</a>
+                </p>
+                    <h4 class="product-price">$245</h4>
+                    <p class="product-rating">4.5/5</p>
+                    <button class="btn product-button">ADD TO CART</button>
+        </div>
+    </article>
+
+    <article class="product card">
+        <div class="badge">
+            <span>9 in stock</span>
+            <hr class="hr-design">
+            <span>35 sold</span>
+        </div>
+        <img class="product-img" src="images/smartwatch.jpg" alt="product 2"/>
+        <div class="product-body">
+            <h3 class="product-name">apple smart watch</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot red"></span>
+                <span class="dot black"></span>
+            </p>
+                <p class="product-description">Apple is the biggest company
+                     in the world.
+                    <a href="product.html" class="learn-more">Learn-more</a></p>
+                    <h4 class="product-price">$545</h4>
+                    <p class="product-rating">4.5/5</p>
+                    <button class="btn product-button">ADD TO CART</button>
+        </div>
+    </article>
+
+
+    <article class="product card">
+        <div class="badge">
+            <span>6 in stock</span>
+            <hr class="hr-design">
+            <span>3 sold</span>
+        </div>
+                        <img class="product-img" src="images/smartglass.jpg" alt="product 3"/>
+                        <div class="product-body">
+                            <h3 class="product-name">Apple smartglass</h3>
+                            <p>
+                                <span class="dot green"></span>
+                                <span class="dot red"></span>
+                                <span class="dot black"></span></p>
+                                <p class="product-description">Apple is the biggest company
+                                     in the world.
+                                    <a href="product.html" class="learn-more">Learn-more</a></p>
+                                    <h4 class="product-price">$245</h4>
+                                    <p class="product-rating">4.5/5</p>
+                                    <button class="btn product-button">ADD TO CART</button>
+                        </div>
+                    </article>
+
+
+
+ <article class="product card">
+        <div class="badge">
+            <span>6 in stock</span>
+            <hr class="hr-design">
+            <span>3 sold</span>
+        </div>
+        <img class="product-img" src="images/product1.jpg" alt="product 4"/>
+        <div class="product-body">
+            <h3 class="product-name">Sony v4 Headphone</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot red"></span>
+                <span class="dot black"></span></p>
+                <p class="product-description">Sony is the biggest company
+                     in the world.
+                    <a href="product.html" class="learn-more">Learn-more</a></p>
+                    <h4 class="product-price">$245</h4>
+                    <p class="product-rating">4.5/5</p>
+                    <button class="btn product-button">ADD TO CART</button>
+        </div>
+    </article>
+
+
+    <article class="product card">
+        <div class="badge">
+            <span>6 in stock</span>
+            <hr class="hr-design">
+            <span>3 sold</span>
+        </div>
+        <img class="product-img" src="images/smartwatch.jpg" alt="product 5"/>
+        <div class="product-body">
+            <h3 class="product-name">Sony v4 Headphone</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot red"></span>
+                <span class="dot black"></span></p>
+                <p class="product-description">Apple is the biggest company
+                     in the world.
+                    <a href="product.html" class="learn-more">Learn-more</a></p>
+                    <h4 class="product-price">$245</h4>
+                    <p class="product-rating">4.5/5</p>
+                    <button class="btn product-button">ADD TO CART</button>
+        </div>
+    </article>
+
+
+    <article class="product card">
+        <div class="badge">
+            <span>7 in stock</span>
+            <hr class="hr-design">
+            <span>3 sold</span>
+        </div>
+        <img class="product-img" src="images/smartglass.jpg" alt="product 6"/>
+        <div class="product-body">
+            <h3 class="product-name">Apple sunglass</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot red"></span>
+                <span class="dot black"></span></p>
+                <p class="product-description">Apple is the biggest company
+                     in the world.
+                    <a href="product.html" class="learn-more">Learn-more</a></p>
+                    <h4 class="product-price">$245</h4>
+                    <p class="product-rating">4.5/5</p>
+                    <button class="btn product-button">ADD TO CART</button>
+        </div>
+    </article>
+   
+
+</section>
+
+<!--production end-->
+
+
+<!--pagination start-->
+
+
+<div class="pagination">
+    <button class="btn pagination-btn">
+        <i class="fas fa-less-than"></i>
+    </button>
+    <button class="btn pagination-btn">2</button>
+    <button class="btn pagination-btn">3</button>
+
+    <button class="btn pagination-btn">4</button>
+
+    <button class="btn pagination-btn">5</button>
+
+    <button class="btn pagination-btn">6</button>
+
+    <button class="btn pagination-btn">7</button>
+
+    <button class="btn pagination-btn">8</button>
+    <button class="btn pagination-btn">9</button>
+
+
+<button class="btn pagination-btn">10</button>
+<button class="btn pagination-btn">...</button>
+
+<button class="btn pagination-btn">50</button>
+<button class="btn pagination-btn">
+    <i class="fas fa-greater-than"></i>
+</button>
+
+
+</div>
+
+<!--pagination end-->
+    
+    
+    </div>
+</main>
+
+<!--footer start-->
+
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe to Newsletter</label>
+        <input type="email" id="subscribe" 
+        name="subscribe" class="footer-input"
+        placeholder="Your email address"/>
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>
+        <p>&copy;Copyright 2024 Advanced Express.
+             Allright for reseved</p>
+    </div>
+    </footer>
+
+    <!--footer end-->
+    
+
+
+
+
+<Script src="./cripts/index.js"></Script>
+
+
+</body>
+</html>
